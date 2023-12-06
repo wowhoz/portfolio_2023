@@ -1,0 +1,45 @@
+/* 공통부분 */
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+.inner{width: 1100px; margin: 0 auto;}
+body{overflow-x: hidden;}
+/* 헤더부분 */
+.header{width: 100%; height: 140px;}
+.logo{width: 100%;text-align: center; margin: 0 auto; padding-top: 10px;}
+.menu{width: 1100px; margin: 0 auto;line-height: 80px;}
+.menu>li{float: left; width:180px; font-weight: bold; }
+.menu>li>a{color: #000; text-decoration: none;}
+.mainimg{width: 100%; height: 530px; background-image: url(../img/mainimg.jpg); background-repeat: no-repeat; background-position: center center;}
+
+/* 컨텐츠시작 */
+.wrap{width: 100%;}
+.contents{width: 100%; height: 1080px;}
+.box1>.inner{text-align: center;padding-top: 77px;}
+.box_set{padding-top:40px;}
+.box_set>.inner{width: 100%; padding-top:77px;}
+.box_set>.list{float: left;  width: calc(100%/3 - 3%); margin: 0 2.25%;}
+.box_set>.list:nth-child(1){margin-left: 0;}
+.box_set>.list:nth-child(3){margin-right: 0;}
+.box2{padding-top: 60px;}
+.box3{padding-top: 55px;}
+.box3_left{width: calc(100% - 252px);height: 180px; float: left; border: 1px solid #707070;border-radius: 50px;}
+.box3_left>div{width: 757px; margin: 0 auto;}
+.box3_left>div>div{float: left; padding-top: 75px;}
+.box3_left>div>ul{float: right;padding: 16px 0; line-height: 50px; font-size: 12px; list-style-image: url(../img/dot.jpg);}
+.box3_left>div>ul>li{font-weight: bold;}
+
+.box3_right{width: 240px; height: 180px; float: right; }
+.box3_right>img{width: 100%;border-radius: 50px;}
+.footer{width: 100%; height: 203px; background-color: #707070; color: #888888; margin-top: 33px;}
+/* 푸터 */
+.footer_info{padding-top: 17px; padding-bottom: 17px; font-size: 13px;  border-bottom: solid 1px #888888; }
+.copyright{padding-top: 55px; font-size: 13px; }
+/* 서브 */
+.sub_mainimg{width: 100%;height: 290px; background-image: url(../img/sub_mainimg.jpg); background-repeat: no-repeat;background-position: center center; background-size: 100%;}
+.sub_box1{text-align: center; padding-top: 99px; border-radius: 50px;}
+.sub_box2{text-align: center; padding-top: 102px;}
+.sub_box3{width: 100%;height:700px;}
+.sub_box3_left{width: 425px;float: left; padding-top: 180px;}
+.sub_box3_right{float: right;padding-top: 180px}
+
